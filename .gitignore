@@ -2,5 +2,6 @@
 .*
 !/.gitignore
 
-# Modules
+# Node
 node_modules/
+package-lock.json
