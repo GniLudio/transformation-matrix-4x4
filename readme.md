@@ -2,16 +2,11 @@
 
 A 4x4 transformation matrix. 
 
+Install with `npm i transformation-matrix-4x4`.
+
 ## API
 
 ### TransformationMatrix
-* `constructor(e11 ... e44)`
-    | | | | |
-    |---|---|---|---|
-    | e11 | e12 | e13 | e14 |
-    | e21 | e22 | e23 | e24 |
-    | e31 | e32 | e33 | e34 |
-    | e41 | e42 | e43 | e44 |
 * `apply(x,y,z,w)` &rarr; `[x, y, z, w]`  
     * Applies the transformation to a point or vector.  
     * Returns the transformed point.
