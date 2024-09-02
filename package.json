@@ -1,0 +1,33 @@
+{
+  "name": "transformation-matrix-4x4",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ferdinand Rohlfing",
+    "email": "ferdinand.rohlfing@gmail.com"
+  },
+  "description": "A 4x4 transformations matrix.",
+  "homepage": "https://github.com/GniLudio/transformation-matrix-4x4#readme",
+  "bugs": {
+    "url": "https://github.com/GniLudio/transformation-matrix-4x4/issues"
+  },
+  "keywords": [
+    "transformation-matrix",
+    "3d-transformations",
+    "transform",
+    "matrix"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": "github:GniLudio/transformation-matrix-4x4",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4"
+  }
+}
